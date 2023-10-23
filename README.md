@@ -15,8 +15,9 @@ k-best criteria belong to the top 10 of observations with the highest prediction
 
 Parameters: 
 
-base_estimator estimator object
-An estimator object implementing fit and predict_proba. Invoking the fit method will fit a clone of the passed estimator, which will be stored in the base_estimator_ attribute.
+https://scikit-learn.org/stable/modules/generated/sklearn.semi_supervised.SelfTrainingClassifier.html
+
+base_estimator: estimator object. An estimator object implementing fit and predict_proba. Invoking the fit method will fit a clone of the passed estimator, which will be stored in the base_estimator_ attribute.
 
 Threshold float, default=0.75
 The decision threshold for use with criterion='threshold'. Should be in [0, 1). When using the 'threshold' criterion, a well calibrated classifier should be used.
